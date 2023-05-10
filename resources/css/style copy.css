@@ -1,0 +1,202 @@
+
+header {
+background-color: rgb(151, 1, 53);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+position:relative;
+color: white;
+}
+
+header h1 {
+margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+nav li {
+margin: 0 10px;
+}
+
+nav a {
+text-decoration: none;
+color: white;
+}
+
+#present{
+font-weight: bold;
+}
+
+
+footer {
+background-color: rgb(151, 1, 53);
+text-align: center;
+padding: 0px;
+width: 100%;
+position: absolute;
+left: 0;
+bottom: 0;
+color: white;
+}
+
+a{
+  text-decoration: none; 
+}
+
+body {
+  background-color: rgb(222, 228, 231);
+  color: black;
+}
+
+.dark {
+  background-color: #060627;
+  color: white;
+}
+
+.headfootdark{
+  background-color: rgb(46, 0, 0);
+  color: white;
+}
+
+#toggle-theme {
+  border: none;
+  padding: 3px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+#toggle-theme,#member-login:hover {
+  cursor: pointer;
+}
+
+  .member-card {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(222, 228, 231);
+    border: none;
+  }
+
+  .member-card img {
+    max-width: 200px;
+    margin-right: 20px;
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+
+  .member-card .card-body {
+    flex-grow: 1;
+  }
+
+  .add-card {
+    max-width: 100%;
+    margin: 2.5% auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(222, 228, 231);
+    border: none;
+  }
+
+  .add-card .card-body {
+    flex-grow: 1;
+  }
+  
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      
+      #loginbutton {
+        background-color: rgb(151, 1, 53);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+      #logoutbutton {
+        background-color: rgb(151, 1, 53);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      #loginbutton:hover {
+        opacity: 0.8;
+      }
+    
+      
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+
+      .carousel-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+      }
+      
+      .carousel-item img, a {
+        visibility: hidden;
+        max-width: 100%;
+        height: -10%;
+      }
+      .carousel-item.active img, a {
+        margin-top: 5%;
+        visibility: visible;
+        max-width: 100%;
+        height: auto;
+      }
+      
+
+      .carousel-control-prev-icon {
+        margin-top: -60%;
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+       }
+       
+       .carousel-control-next-icon {
+         margin-top: -60%;
+         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+       }
+
+       @media only screen and (max-width: 750px) {
+        header {
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        nav ul{
+        flex-direction: column;
+        align-items: center;
+        }
+        }
+
+      /* Change styles for span and cancel button on extra small screens */
+      @media screen and (max-width: 300px) {
+        span.psw {
+           display: block;
+           float: none;
+        }
+      }
