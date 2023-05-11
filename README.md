@@ -18,7 +18,11 @@ Once you have Composer installed, you can use it to install Laravel. Open your t
 
 This command will install the Laravel Installer globally on your system.
 
-## Step 4: Serve the Laravel Application
+## Step 4: Start Apache Server and MySQL
+
+You can start Apache Server and MySQL using Xampp.
+
+## Step 5: Serve the Laravel Application
 Navigate to the project directory:
 
 **cd project-name**
