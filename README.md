@@ -1,7 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="pearl.nmsu.edu" width="400" alt="Laravel Logo"></a></p>
-
-
-## About Laravel
+## PEARL Lab Website in Laravel
 
 To install and set up Laravel, you'll need to follow these steps:
 
